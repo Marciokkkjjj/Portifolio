@@ -15,7 +15,7 @@ header {
     border-bottom: 1px solid rgb(49, 49, 49);
 }
 
-.contato {
+.infos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,15 +25,33 @@ header {
 a {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 0, 0);
     margin: 15px;
     padding: 20px;
-    width: 200px;
+    width: 150px;
     border-radius: 20px 10px 20px 10px;
+    transition: transform 0.2s ease-in-out;
+
+}
+a:hover {
+ transform: scale(1.2);
+ animation: all 4s ease-in-out;
 
 }
 
 img {
     max-width: 30px;
-    margin-right: 5px;
+
 }
+
+.ligue {
+    background-color: #485fc7;
+}
+
+.local {
+    background-color: #c8010f;
+}
+
+.fale {
+    background-color: #2ecc71;
+}
+
