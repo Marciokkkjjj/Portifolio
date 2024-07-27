@@ -33,7 +33,7 @@ a {
 
 }
 a:hover {
- transform: scale(1.2);
+ transform: scale(1.1);
  animation: all 4s ease-in-out;
 
 }
@@ -55,3 +55,44 @@ img {
     background-color: #2ecc71;
 }
 
+.Horário {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #91919111;
+    border-radius: .25rem;
+    box-shadow: 0.5em 1em -.125em hsla(0, 0%, 47%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, .02);
+    color: #4a4a4a;
+    min-width: 110px;
+    max-width: 25%;
+    border: white solid 0.1px;
+
+}
+
+@media (max-width: 660px) {
+    .horaCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Horário {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #91919111;
+        border-radius: .25rem;
+        box-shadow: 0.5em 1em -.125em hsla(0, 0%, 47%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, .02);
+        color: #4a4a4a;
+        width: 50%;
+        max-width: 100%;
+        min-width: 200px;
+        border: white solid 0.1px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+}
+
+.test {
+    margin-top: 3000px;
+}
