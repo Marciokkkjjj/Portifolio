@@ -38,7 +38,7 @@ a:hover {
 
 }
 
-img {
+a img {
     max-width: 30px;
 
 }
@@ -63,7 +63,7 @@ img {
     box-shadow: 0.5em 1em -.125em hsla(0, 0%, 47%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, .02);
     color: #4a4a4a;
     min-width: 110px;
-    max-width: 25%;
+    max-width: 30%;
     border: white solid 0.1px;
 
 }
@@ -82,8 +82,8 @@ img {
         border-radius: .25rem;
         box-shadow: 0.5em 1em -.125em hsla(0, 0%, 47%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, .02);
         color: #4a4a4a;
-        width: 50%;
-        max-width: 100%;
+        width: 60%;
+        max-width: 90%;
         min-width: 200px;
         border: white solid 0.1px;
         display: flex;
@@ -91,6 +91,33 @@ img {
     
     }
 
+    .imgs {
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .loja img {
+        height: 70%;
+        min-width: 90%;
+
+        
+    }
+    
+    .text-img {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    h2 {
+        margin: 20px;
+    }
+}
+
+
+.loja img {
+    width: 32%;
 }
 
 .test {
